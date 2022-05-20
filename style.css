@@ -1,0 +1,103 @@
+/* Page margin and paddin reset*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    background-color: #D6E1FF;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-family: 'Red Hat Display', sans-serif;
+} 
+
+.card{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: flex-start;
+    width: 450px;
+    height: 697px;
+    border-radius: 20px;
+    border-style: solid 2px black;
+    margin: 102px 495px;
+    background-color: white;
+}
+
+.card img{
+    width: 450px;
+    height: 220px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+h1{
+    margin: 45px 48px 0px 48px;
+    color: #1F2E55;
+    font-size: 28px;
+}
+
+.desc{
+    font-size: 16px;
+    margin: 17px 48px 0px 17px;
+}
+
+.choice{
+    width: 354px;
+    height: 98px;
+    margin: 20px 48px 0 48px;
+    background-color: #F7F9FF;
+    border-radius: 11px;
+
+}
+
+.choice img{
+    height: 48px;
+    width: 48px;
+    float: left;
+    margin: 25px 482px 25px 24px;
+}
+
+.plan{
+    color: #717FA6;
+    font-size: 16px;
+    font-weight: 500;
+    height: 48px;
+    width: 92px;
+    
+}
+
+#annual{
+    color: #1F2E55;
+    font-size: 16px;
+    font-weight: 900;
+}
+
+.change{
+color: #382AE1;
+font-size: 14px;
+font-weight: 700;
+float:inline-end;
+}
+
+.payment{
+    width: 354px;
+    height: 50px;
+    background-color: #382AE1;
+    color: white;
+    text-align: center;
+    border-radius: 11px;
+    box-shadow: 0px 20px 20px rgba(56, 42, 225, 0.190291);
+    margin: 32px 48px 0px 48px;
+}
+
+.cancel{
+    font-size: 15px;
+    color:#717FA6;
+    margin: 32px 48px 0px 48px;
+}
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
