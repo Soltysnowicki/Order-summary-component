@@ -99,6 +99,11 @@ h1{
 }
 
 /*change animation*/
+.change:hover{
+    color: #766CF1;
+    text-decoration: none;
+    transition: color 200ms;
+}
 
 /*payment button*/
 .payment{
@@ -108,27 +113,37 @@ h1{
     color: white;
     text-align: center;
     border-radius: 11px;
+    border: none;
     box-shadow: 0px 20px 20px rgba(56, 42, 225, 0.190291);
     margin: 32px 48px 0px 48px;
     font-size: 15px;
     font-weight: 900;
+    text-decoration: none;
 }
 
 /*payment button animation*/
 
+.payment:hover{
+    background-color:#766CF1;
+}
 /*cancel link*/
 .cancel{
     font-size: 15px;
     color:#717FA6;
     margin: 32px 48px 0px 48px;
+    text-decoration: none;
 }
 
 /*cancel link animation*/
+.cancel:hover{
+    color:#1F2E55
+}
 
-
+/*footer and creator */
 footer { 
     font-size: 11px; 
     text-align: center; 
+    
 }
 .attribution a { 
     color: hsl(228, 45%, 44%); 
